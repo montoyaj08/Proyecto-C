@@ -1,22 +1,27 @@
-p1: proyecto1.c
-    gcc -o exe1 proyecto1.c
+CC = gcc
 
-p2: proyecto2.c
-    gcc -o exe2 proyecto2.c
+all: exe1 exe2 exe3
 
-p3: proyecto3.c
-    gcc -o exe3 proyecto3.c
+exe1: proyecto1.c
+	$(CC) -o exe1 proyecto1.c
 
-.PHONY: all p1 p2 p3 run_p1 run_p2 run_p3
+exe2: proyecto2.c
+	$(CC) -o exe2 proyecto2.c
 
-all: p1 p2 p3
+exe3: proyecto3.c
+	$(CC) -o exe3 proyecto3.c
 
-run_p1: p1
-    ./exe1
+run: 
 
-run_p2: p2
-    ./exe2
+p1: exe1
+	./exe1
 
-run_p3: p3
-    ./exe3
+p2: exe2
+	./exe2
+
+p3: exe3
+	./exe3
+
+clean:
+	rm exe1 exe2 exe3
 
