@@ -1,7 +1,7 @@
 /*
 Jose Montoya Hernandez, C05066
-Ebandry Calderón Araya B81372
-Susan Morales A94203
+Ebandry Calderón Araya, B81372
+Susan Morales Alfaro, A94203
 
 Descripcion del programa: El siguiente programa le permite al usuario conocer
 el camino mas corto entre dos ciudades que el mismo solicite. Para ello,
