@@ -49,7 +49,7 @@ int main() {
     int resultado = obtenerDirecciones(matriz, filas, columnas, &direcciones);
 
     if (resultado == 0) {
-        // Imprimir las direcciones de inicio de cada fila
+        // Imprimie las direcciones de inicio de cada fila
         printf("Direcciones de inicio de cada fila:\n");
         for (int i = 0; i < filas; i++) {
             printf("%p\n", (void *)direcciones[i]);
