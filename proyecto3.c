@@ -3,8 +3,8 @@
 
 /*
 Integrantes:
-1.
-2.
+1. Jose Montoya Hernandez, C05066
+2. Ebandry Calderón Araya, B81372
 3. Susan Morales Alfaro, A94203
 
 Descripción: Se le solicita al usuario el número de filas y columnas desea para la
